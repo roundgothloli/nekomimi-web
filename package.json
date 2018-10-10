@@ -5,11 +5,16 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "flow": "flow"
   },
   "dependencies": {
     "gatsby": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.82.0",
+    "gatsby-plugin-flow": "^1.0.2"
   }
 }
